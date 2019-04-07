@@ -1,4 +1,4 @@
-# Raster-scatterplot
+# RasterScatterplot
 
 *Version 0.1*
 
