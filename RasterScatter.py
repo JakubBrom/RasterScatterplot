@@ -308,7 +308,7 @@ class RasterScatterPlot(QDockWidget):
 
 		# create an axis
 		ax = self.figure.add_subplot(111)
-		ax.set_aspect("auto", "box-forced")
+		ax.set_aspect("auto", "box")
 
 		# Axes names
 		x_name = self.dockwidget.cb_rast1.currentText()

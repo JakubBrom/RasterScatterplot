@@ -2,7 +2,7 @@
 name=Raster Scatterplot
 qgisMinimumVersion=3.0
 description=Create scatterplot for two rasters
-version=0.1
+version=0.1.1
 author=Jakub Brom, University of South Bohemia in Ceske Budejovice, Faculty of Agriculture
 email=jbrom@zf.jcu.cz
 
@@ -12,6 +12,8 @@ tracker=https://github.com/JakubBrom/RasterScatterplot/issues
 repository=https://github.com/JakubBrom/RasterScatterplot
 
 # changelog=
+    0.1.1 [220131]: Changes in plot aspect ratio settings
+    0.1   [190408]: Initial commit
 
 tags=raster, scatterplot, regression
 
