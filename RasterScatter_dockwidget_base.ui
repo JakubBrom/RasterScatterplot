@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>534</width>
-    <height>441</height>
+    <height>450</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>520</width>
-    <height>350</height>
+    <height>450</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -50,7 +50,7 @@
          <x>0</x>
          <y>0</y>
          <width>514</width>
-         <height>401</height>
+         <height>410</height>
         </rect>
        </property>
        <layout class="QHBoxLayout" name="horizontalLayout">

@@ -78,7 +78,6 @@ class RasterScatterPlot(QDockWidget):
 		# Declare instance attributes
 		self.actions = []
 		self.menu = self.tr(u'&Raster Scatterplot')
-		# TODO: We are going to let the user set this up in a future iteration
 		self.toolbar = self.iface.addToolBar(u'RasterScatterPlot')
 		self.toolbar.setObjectName(u'RasterScatterPlot')
 
@@ -360,6 +359,5 @@ class RasterScatterPlot(QDockWidget):
 			self.dockwidget.closingPlugin.connect(self.onClosePlugin)
 
 			# show the dockwidget
-			# TODO: fix to allow choice of dock location
 			self.iface.addDockWidget(Qt.LeftDockWidgetArea, self.dockwidget)
 			self.dockwidget.show()
