@@ -256,6 +256,10 @@ class RasterScatterPlot(QDockWidget):
 		x_raw = rp.readRaster(path_x, path_mask)		# raster X
 		y_raw = rp.readRaster(path_y, path_mask)		# raster Y
 
+		# replace NaN values
+		x_raw = np.nan_to_num(x_raw)
+		y_raw = np.nan_to_num(y_raw)
+
 		# Values selection - because the drawing of huge number of values in the plot
 		x_len = self.dockwidget.sb_select.value()
 
@@ -266,9 +270,6 @@ class RasterScatterPlot(QDockWidget):
 		else:
 			x = x_raw
 			y = y_raw
-
-		x = np.nan_to_num(x)
-		y = np.nan_to_num(y)
 
 		# Define method
 		method = self.dockwidget.cb_method.currentIndex()
