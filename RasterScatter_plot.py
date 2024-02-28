@@ -137,8 +137,8 @@ class RasterScatterPlotParams:
 	
 		ignore_zero = np.seterr(all = "ignore")
 		
-		list_x = [data_x, np.log(data_x), data_x, np.log(data_x)]
-		list_y = [data_y, data_y, np.log(data_y), np.log(data_y)]
+		list_x = [data_x, np.log(data_x+1), data_x, np.log(data_x+1)]
+		list_y = [data_y, data_y, np.log(data_y+1), np.log(data_y+1)]
 		
 		# Calculation of constants for regression models: slope, intercept, r and p
 		list_r = [int() for i in range(4)]                               	# list of r values for the methods
