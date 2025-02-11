@@ -3,7 +3,7 @@ name=Raster Scatterplot
 qgisMinimumVersion=3.0
 description=Create scatterplot for two rasters
 version=0.2.1
-author=Jakub Brom, University of South Bohemia in Ceske Budejovice, Faculty of Agriculture
+author=Jakub Brom, University of South Bohemia in Ceske Budejovice, Faculty of Agriculture and Technology
 email=jbrom@fzt.jcu.cz
 
 about=Plugin provides quick information about relation between two rasters with the same spatial extent (i.e. number of columns and rows) in form of scatterpolot and regression analysis. Following methods of regression analysis are available: linear, logarithmic, exponential and power. Plugin allows automatic selection of the best method.
@@ -11,7 +11,7 @@ about=Plugin provides quick information about relation between two rasters with 
 tracker=https://github.com/JakubBrom/RasterScatterplot/issues
 repository=https://github.com/JakubBrom/RasterScatterplot
 
-# changelog=
+changelog=
     0.2.1 [240228]: A small change in nat. logarithm calculation (ln(data + 1) instead of ln(data)); Changes in replacing nans in dataset
     0.2   [240216]: New ability to read data directly from the QGIS iface layers list; highlighting data density; selection of data to reduce rendering time; bug fixes
     0.1.1 [220131]: Changes in plot aspect ratio settings
