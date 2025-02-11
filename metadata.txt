@@ -23,7 +23,7 @@ homepage=https://github.com/JakubBrom
 category=Raster
 icon=icon.png
 
-experimental=True
+experimental=False
 
 deprecated=False
 
